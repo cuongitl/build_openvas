@@ -45,7 +45,12 @@ apt install -y \
   xsltproc \
   rsync \
   libbsd-dev \
-  libgpgme-dev
+  libgpgme-dev \
+  xmltoman \
+  libxslt1-dev \
+  libjson-glib-doc \
+  libjson-glib-dev
+
 
 apt install -y --no-install-recommends \
   texlive-latex-extra \
@@ -123,3 +128,11 @@ apt install -y
 apt install -y \
   pkg-config \
   libssl-dev
+
+# gvm-libs-2026
+apt install -y \
+  libcjson-dev \
+  libgvm-dev \
+  libkrb5-dev \
+  clang-format \
+  graphviz
